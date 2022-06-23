@@ -1,0 +1,1 @@
+cmd_/home/rpi/src/kernel-dev/kernel/device_numbers/modules.order := {   echo /home/rpi/src/kernel-dev/kernel/device_numbers/device.ko; :; } | awk '!x[$$0]++' - > /home/rpi/src/kernel-dev/kernel/device_numbers/modules.order

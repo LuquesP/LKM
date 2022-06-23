@@ -1,0 +1,1 @@
+cmd_/home/rpi/src/kernel-dev/kernel/read_write/modules.order := {   echo /home/rpi/src/kernel-dev/kernel/read_write/read_write.ko; :; } | awk '!x[$$0]++' - > /home/rpi/src/kernel-dev/kernel/read_write/modules.order

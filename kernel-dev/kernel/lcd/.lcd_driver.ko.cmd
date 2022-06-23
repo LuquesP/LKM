@@ -1,0 +1,1 @@
+cmd_/home/rpi/src/kernel-dev/kernel/lcd/lcd_driver.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/rpi/src/kernel-dev/kernel/lcd/lcd_driver.ko /home/rpi/src/kernel-dev/kernel/lcd/lcd_driver.o /home/rpi/src/kernel-dev/kernel/lcd/lcd_driver.mod.o;  true

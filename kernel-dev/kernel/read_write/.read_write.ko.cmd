@@ -1,0 +1,1 @@
+cmd_/home/rpi/src/kernel-dev/kernel/read_write/read_write.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/rpi/src/kernel-dev/kernel/read_write/read_write.ko /home/rpi/src/kernel-dev/kernel/read_write/read_write.o /home/rpi/src/kernel-dev/kernel/read_write/read_write.mod.o;  true

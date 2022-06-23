@@ -1,0 +1,1 @@
+cmd_/home/rpi/src/kernel-dev/kernel/hello_world/modules.order := {   echo /home/rpi/src/kernel-dev/kernel/hello_world/mymodule.ko; :; } | awk '!x[$$0]++' - > /home/rpi/src/kernel-dev/kernel/hello_world/modules.order

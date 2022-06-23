@@ -1,0 +1,1 @@
+cmd_/home/rpi/src/kernel-dev/kernel/hello_world/mymodule.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/rpi/src/kernel-dev/kernel/hello_world/mymodule.ko /home/rpi/src/kernel-dev/kernel/hello_world/mymodule.o /home/rpi/src/kernel-dev/kernel/hello_world/mymodule.mod.o;  true

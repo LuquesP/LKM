@@ -1,0 +1,1 @@
+cmd_/home/rpi/src/kernel-dev/kernel/device_numbers/device.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/rpi/src/kernel-dev/kernel/device_numbers/device.ko /home/rpi/src/kernel-dev/kernel/device_numbers/device.o /home/rpi/src/kernel-dev/kernel/device_numbers/device.mod.o;  true
