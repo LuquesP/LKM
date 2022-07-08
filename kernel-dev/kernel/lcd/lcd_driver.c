@@ -25,8 +25,8 @@ static char lcd_buffer[17];
 
 
 unsigned int gpios[] = {
-	3, /* Enable Pin */
-	2, /* Register Select Pin */
+	13, /* Enable Pin */
+	6, /* Register Select Pin */
 	4, /* Data Pin 0*/
 	17, /* Data Pin 1*/
 	27, /* Data Pin 2*/
